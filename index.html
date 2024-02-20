@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="robots" content="noindex , nofollow" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Corporate Website</title>
+        <meta name="description" content="Corporate Website test" />
+        <link rel="icon" href="img/favicon.ico" />
+
+        <!-- CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <link href="css/style.css" rel="stylesheet" />
+
+        <!-- Reference Site(参考サイト)　https://code-jump.com/corporate2-menu/　-->
+
+        <!-- トップページのcompanyの部分は横幅1000pxまでとの指示がありますが、
+            デザインカンプでは1000px以上になっていたため、1000pxの方に合わせています -->
+        <!-- The design comp showed the company section of the homepage extending beyond 1000px,
+             but we've adjusted it to match the instruction of limiting it to a width of 1000px. -->
+
+        <!--
+        <meta property="og:url" content="http://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="title">
+        <meta property="og:description" content="text">
+        <meta property="og:image" content="http://">
+        -->
+    </head>
+
+    <body id="top">
+        <header id="header">
+            <div class="grid-header">
+                <h1 class="logo-top-position">
+                    <a class="logo" href="index.html"><img src="img/logo.svg" alt="logo" /></a>
+                </h1>
+                <div class="nav">
+                    <ul class="ly-nav">
+                        <li><a href="newspress.html">NEWS</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#business">BUSINESS</a></li>
+                        <li><a href="#company">COMPANY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="contact-block" href="contact.html">お問い合わせ</a>
+        </header>
+
+        <main id="main">
+            <div class="mainvisual">
+                <img src="img/mainvisual.jpg" alt="office-image" />
+            </div>
+
+            <section class="wrapper1000 wrapper-padding16 toppage-news">
+                <div class="section-title-ly">
+                    <h2 class="section-title">NEWS</h2>
+                    <p>ニュース</p>
+                    <span class="section-news-margin"></span>
+                </div>
+                <article class="articles-ly">
+                    <div class="article-grid toppage-article-grid">
+                        <time datetime="2021-01-01">2021.01.01</time>
+                        <span>NEWS</span>
+                        <p>タイトルタイトルタイトルタイトル</p>
+                    </div>
+                    <div class="article-grid toppage-article-grid">
+                        <time datetime="2021-01-01">2021.01.01</time>
+                        <span>PRESS</span>
+                        <p>タイトルタイトルタイトルタイトル</p>
+                    </div>
+                    <div class="article-grid toppage-article-grid">
+                        <time datetime="2021-01-01">2021.01.01</time>
+                        <span>NEWS</span>
+                        <p>タイトルタイトルタイトルタイトル</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="toppage-about-ly">
+                <div class="about-visual">
+                    <img src="img/about.jpg" alt="about-image" />
+                </div>
+
+                <div class="wrapper-padding16 about-text">
+                    <div class="section-title-ly">
+                        <h2 class="section-title">ABOUT</h2>
+                        <p>私たちについて</p>
+                        <span></span>
+                    </div>
+                    <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+                    <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+                    <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+                </div>
+            </section>
+
+            <section class="toppage-business-ly">
+                <div class="wrapper1000 wrapper-padding16">
+                    <div class="section-title-ly">
+                        <h2 class="section-title">BUSINESS</h2>
+                        <p>事業内容</p>
+                        <span></span>
+                    </div>
+                    <ul class="business-ly">
+                        <li class="business-content business-content-1">
+                            <p>Web制作・マーケティング</p>
+                            <img src="img/business1.jpg" alt="Web制作・マーケティングimg" />
+                        </li>
+                        <li class="business-content business-content-2">
+                            <p>インターネットメディア事業</p>
+                            <img src="img/business2.jpg" alt="インターネットメディア事業img" />
+                        </li>
+                        <li class="business-content business-content-3">
+                            <p>プロモーション企画・制作</p>
+                            <img src="img/business3.jpg" alt="プロモーション企画・制作img" />
+                        </li>
+                        <li class="business-content business-content-4">
+                            <p>ソーシャル企画・運営</p>
+                            <img src="img/business4.jpg" alt="ソーシャル企画・運営img" />
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="toppage-company">
+                <div class="wrapper1000 wrapper-padding16 company-ly">
+                    <div class="company-text bg-color-white">
+                        <div class="section-title-ly">
+                            <h2 class="section-title company">COMPANY</h2>
+                            <p>会社情報</p>
+                            <span></span>
+                        </div>
+                        <dl class="company-overview">
+                            <dt>会社名</dt>
+                            <dd>ウェブエンターテイメントデザイン株式会社</dd>
+                            <dt>所在地</dt>
+                            <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+                            <dt>代表</dt>
+                            <dd>ＸＸＸＸＸＸ</dd>
+                            <dt>設立</dt>
+                            <dd>2021年1月1日</dd>
+                            <dt>資本金</dt>
+                            <dd>3,000,000円</dd>
+                            <dt>事業内容</dt>
+                            <dd class="business-activities">Web制作・マーケティング</dd>
+                            <dd class="business-activities margin-left-15">インターネットメディア事業</dd>
+                            <dd class="business-activities margin-left-15">プロモーション企画・制作</dd>
+                            <dd class="business-activities margin-left-15">ソーシャル企画・運営</dd>
+                        </dl>
+                    </div>
+
+                    <img class="company-img" src="img/company.jpg" alt="company-img" />
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="wrapper1000 wrapper-padding16 grid-footer">
+                <a class="logo logo-footer-position" href="index.html"><img src="img/logo.svg" alt="logo" /></a>
+                <address class="address">
+                    Web Entertainment Design Inc.<br />
+                    West Building 3F<br />
+                    9-99 Sakuragaokacho Shibuya-ku<br />
+                    Tokyo, Japan 150-0031<br />
+                    T/99-9999-9999
+                </address>
+                <p class="copyright">&copy; Web Entertainment Design Inc.</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<!-- 今回の反省、命名規則がバラバラになってしまった。
+　　　改善策：BEMなどのCSS設計を勉強する。 -->
+<!-- I regret that the naming conventions became inconsistent this time.
+     Improvement plan: Study CSS design methodologies such as BEM."　-->
