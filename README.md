@@ -11,4 +11,4 @@ It's a website for a typical company.
     <br>
     <br>
 - Reference Site(参考サイト)  
-  - Codejunp  https://code-jump.com/store1-menu/
+  - Codejunp  https://code-jump.com/corporate2-menu/
